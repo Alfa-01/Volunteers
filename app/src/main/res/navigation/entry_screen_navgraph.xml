@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/entry_sreen_navgraph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:name="ru.sicampus.bootcamp2025.ui.entry.login.LoginFragment"
+        android:id="@+id/login_fragment"
+        tools:layout="@layout/login_fragment">
+    </fragment>
+
+    <fragment
+        android:name="ru.sicampus.bootcamp2025.ui.entry.signup.SignUpFragment"
+        android:id="@+id/signup_fragment"
+        tools:layout="@layout/signup_fragment">
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="ru.sicampus.bootcamp2025.ui.entry.SplashFragment"
+        tools:layout="@layout/splash_fragment"
+        android:label="SplashFragment" />
+
+</navigation>
